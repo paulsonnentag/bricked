@@ -10,6 +10,12 @@ Every number that affects the feel is a live slider. Nothing needs a reload.
 
 **Play it: https://paulsonnentag.github.io/bricked/**
 
+The page goes live once GitHub Pages is switched on for this repository:
+**Settings -> Pages -> Build and deployment -> Source: GitHub Actions**. Pages
+serves public sites only from public repositories, so this repo needs to be
+public for that URL to be reachable by anyone; on a private repo with a paid
+plan the site is restricted to people who can already see the repo.
+
 ```bash
 npm install
 npm run dev
