@@ -1,0 +1,34 @@
+{
+  "name": "bricked",
+  "version": "1.0.0",
+  "description": "Arcade vehicle physics prototype (bitECS + three.js + Rapier)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulsonnentag/bricked.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulsonnentag/bricked/issues"
+  },
+  "homepage": "https://github.com/paulsonnentag/bricked#readme",
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.20.0",
+    "bitecs": "^0.4.0",
+    "lil-gui": "^0.21.0",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.185.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  },
+  "type": "module"
+}
