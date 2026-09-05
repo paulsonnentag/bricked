@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - claude/vehicle-physics-bitecs-threejs-vto6gp
   workflow_dispatch:
 
 permissions:
@@ -32,9 +31,6 @@ jobs:
       - run: npm run typecheck
       - run: npm run build
 
-      # Pages has to be switched on once by hand under Settings -> Pages
-      # (Source: GitHub Actions). The workflow token can't do it: creating a
-      # Pages site needs admin rights that GITHUB_TOKEN doesn't carry.
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
