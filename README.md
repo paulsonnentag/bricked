@@ -11,10 +11,14 @@ Every number that affects the feel is a live slider. Nothing needs a reload.
 **Play it: https://paulsonnentag.github.io/bricked/**
 
 The page goes live once GitHub Pages is switched on for this repository:
-**Settings -> Pages -> Build and deployment -> Source: GitHub Actions**. Pages
-serves public sites only from public repositories, so this repo needs to be
-public for that URL to be reachable by anyone; on a private repo with a paid
-plan the site is restricted to people who can already see the repo.
+**Settings -> Pages -> Build and deployment -> Source: GitHub Actions**.
+
+The repository does not have to be public. A Pages site's visibility is a
+separate setting from the repository's, so a private repo can publish a
+publicly reachable site while the source stays private. Publishing Pages from a
+private repository does require GitHub Pro (or Team/Enterprise) - on the free
+plan Pages only works from public repositories. Restricting the site itself to
+people with repo access is an Enterprise Cloud feature.
 
 ```bash
 npm install
