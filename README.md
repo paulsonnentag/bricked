@@ -8,10 +8,16 @@ no drivetrain, no tyre model.
 
 Every number that affects the feel is a live slider. Nothing needs a reload.
 
+**Play it: https://paulsonnentag.github.io/bricked/**
+
 ```bash
 npm install
 npm run dev
 ```
+
+Pushing to `main` rebuilds and redeploys the page via GitHub Actions
+(`.github/workflows/deploy.yml`). The build uses a relative asset base, so it
+works from the `/bricked/` project subpath without hardcoding the repo name.
 
 ## Stack
 
